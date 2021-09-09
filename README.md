@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ElizavetaShopik.github.io/rsschool-cv/cv
