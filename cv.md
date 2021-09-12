@@ -39,9 +39,7 @@ I'm 23 y.o. I live in Minsk. My specialty is a teacher and a programmer. I've be
 	}; 
 	
 	user.sayHi();  // Liza
-
 ## Languages
 > **Russian**  - native speaker.
 
 > **English**  - A2 (B1 in process)
-
