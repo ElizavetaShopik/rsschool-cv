@@ -10,23 +10,6 @@ body{
     background-color : var(--color-light); 
 }
 
-figure {
-    display: block;
-    width: 200px;
-    padding: 20px 20px;
-    background-color: var(--color-primary);
-    /*box-shadow:  10px 10px 10px rgba(0,0,0,.175)!important;*/
-    float: left;
-    
-}
-img{
-    width: 250px;
-    box-shadow:  10px 10px 10px rgba(0,0,0,.175)!important;
-    border: 10px outset var(--color-light);
-    display: block;
-}
-
-
 .cov {
     width: 1000px;
     margin: auto;
@@ -38,14 +21,33 @@ img{
     background-color : var(--color-light); 
 }
 
-.cover {
+.page-content {
     width: 1000px;
-    height: 350px;
     margin: auto;
+    box-shadow:  20px 20px 10px rgba(0,0,0,.175);
+    background-color: var(--color-white);
+    color: var(--color-dark);
+
+}
+
+figure {
+    width: 200px;
+    padding: 20px 20px;
+    float: left;
+    
+}
+
+.cover img{
+    width: 250px;
+    box-shadow:  10px 10px 10px rgba(0,0,0,.175);
+    border: 10px outset var(--color-light);
+}
+
+.cover {
     padding: 10px;
-    border-radius: 10px 10px 0 0;
-    background-color: var(--color-primary);
-    box-shadow:  20px 20px 10px rgba(0,0,0,.175)!important;
+    height: 350px;
+    background-color: var(--color-primary)!important;
+    
 }
 
 .navigation {
@@ -74,13 +76,7 @@ img{
 }
 
 .about-section {
-    width: 1000px;
-    /*height: 350px;*/
-    margin: auto;
     padding: 10px;
-    background-color: var(--color-white);
-    box-shadow:  20px 20px 10px rgba(0,0,0,.175)!important;
-    color: var(--color-dark);
 }
 
 article{
@@ -115,19 +111,12 @@ article{
 }
 
 hr {
-    width: 1000px;
+    width: 990px;
     margin: -1px auto;
 }
 
 .education-section {
-    width: 1000px;
-    /*height: 350px;*/
-    margin: auto;
     padding: 10px;
-    background-color: var(--color-white);
-    box-shadow:  20px 20px 10px rgba(0,0,0,.175)!important;
-    color: var(--color-dark);
-
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
 }
@@ -141,12 +130,7 @@ hr {
 }
 
 .skills-section {
-    width: 1000px;
-    margin: auto;
     padding: 10px;
-    background-color: var(--color-white);
-    box-shadow:  20px 20px 10px rgba(0,0,0,.175)!important;
-    color: var(--color-dark);
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
 }
@@ -200,25 +184,31 @@ hr {
 }
 
 .code-section {
-    width: 1000px;
-    margin: auto;
     padding: 10px;
-    background-color: var(--color-white);
-    box-shadow:  20px 20px 10px rgba(0,0,0,.175);
-    color: var(--color-dark);
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
 }
 
 
 .lang-section {
-    width: 1000px;
-    margin: auto;
     padding: 10px;
-    background-color: var(--color-white);
-    box-shadow:  20px 20px 10px rgba(0,0,0,.175);
-    color: var(--color-dark);
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
 }
 
+.footer {
+    display: flex;
+    background-color: var(--color-white);
+    justify-content: space-around;
+}
+
+.footer div {
+    height: 150px;
+}
+.footer div img {
+    display: block;
+    margin:  auto;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}

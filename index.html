@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>CV</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
     </head>
     <body>
         <header>
@@ -13,114 +15,137 @@
             </div>
         </header>
         <main>
-            <div class="cover"> 
-                <figure>
-                    <img src="images\foto.jpg" alt="Фото">
-                </figure>
+            <div class="page-content">
+                <div class="cover"> 
+                    <figure>
+                        <img src="images\foto.jpg" alt="Фото">
+                    </figure>
 
-                <div class="navigation">
-                    <h2>Elizaveta Shopik</h2>
-                    <p style="font-weight: normal; font-size: 18px; text-decoration: underline;">Junior Frontend Developer</p>
-                    <nav>
-                        <ul style="font-weight: normal; font-size: 18px;">
-                            <li><a href="#about">About me</a></li>
-                            <li><a href="#contacts">Contacts</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#code">Code Examples</a></li>
-                            <li><a>Languages</a></li>
+                    <div class="navigation">
+                        <h2>Elizaveta Shopik</h2>
+                        <h3>Junior Frontend Developer</h3>
+                        <nav>
+                            <ul style="font-weight: normal; font-size: 18px;">
+                                <li><a href="#about">About me</a></li>
+                                <li><a href="#contacts">Contacts</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#code">Code Examples</a></li>
+                                <li><a href="#lang">Languages</a></li>
 
-                        </ul>
-                    </nav>
-
-                </div>
-                
-            </div>
-            <div class="about-section">
-                <div id="about" class="left-row">
-                    <article>About me</article>
-                    <section>I'm 23 y.o. I live in Minsk. 
-                        My specialty is a teacher and a programmer. I've been working as a robotics and programming teacher for five years. 
-                        I like to learn something new and exciting. That is why I`m here. 
-                        My goal is to get knowledge and skills that will be enough for employment in a company.
-                    </section>
-                </div>
-                <div id="contacts" class="row-contacts">
-                    <article>Contacts</article>
-                    <section class="list-contacts">
-                        <ul>
-                            <li>Address: Minsk, Belarus</li>
-                            <li>Phone: +375447721681</li>
-                            <li>Email: elizavetashopik@yandex.by</li>
-                            <li>GitHub: ElizavetaShopik</li>
-                            <li>Discord: Елизавета Шопик#2207</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-            <hr>
-            <div id="education" class="education-section">
-                <section class="row">
-                    <article>Education</article>
-                    <ul class="list-education">
-                        <li>Minsk Radioengineering College</li> 
-                        <li>Belarusian State University of Informatics and Radioelectronics</li>
-                        <li>Courses
-                            <ul>
-                                <li><a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 video course</a></li>
-                                <li><a href="https://www.htmlacademy.ru">HTML Academy</a></li>
-                                <li><a href="https://learn.javascript.ru/">Learn.javascript</a></li>
-                                <li>Belhard  Academy (Modern Front-End using JavaScript, HTML5, React)</li>
                             </ul>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-            <hr>
-            <div id="skills" class="skills-section">
-                <section class="row">
-                    <article>Skills</article>
-                    <ul>
-                        <li class="skills-html"><span>HTML</span></li>
-                        <li class="skills-css"><span>CSS</span></li>
-                        <li class="skills-js"><span>JavaScript</span></li>
-                        <li class="skills-react"><span>React</span></li>
-                        <li class="skills-git"><span>GitHub</span></li>
-                        <li class="skills-python"><span>Python</span></li>
-                    </ul>
+                        </nav>
 
-                </section>
+                    </div>
+                    
+                </div>
+                <div class="about-section">
+                    <div id="about" class="left-row">
+                        <article>About me</article>
+                        <section>I'm 23 y.o. I live in Minsk. 
+                            My specialty is a teacher and a programmer. I've been working as a robotics and programming teacher for five years. 
+                            I like to learn something new and exciting. That is why I`m here. 
+                            My goal is to get knowledge and skills that will be enough for employment in a company.
+                        </section>
+                    </div>
+                    <div id="contacts" class="row-contacts">
+                        <article>Contacts</article>
+                        <section class="list-contacts">
+                            <ul>
+                                <li>Address: Minsk, Belarus</li>
+                                <li>Phone: +375447721681</li>
+                                <li>Email: elizavetashopik@yandex.by</li>
+                                <li>GitHub: ElizavetaShopik</li>
+                                <li>Discord: Елизавета Шопик#2207</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <hr>
+                <div id="education" class="education-section">
+                    <section class="row">
+                        <article>Education</article>
+                        <ul class="list-education">
+                            <li>Minsk Radioengineering College</li> 
+                            <li>Belarusian State University of Informatics and Radioelectronics</li>
+                            <li>Courses
+                                <ul>
+                                    <li><a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 video course</a></li>
+                                    <li><a href="https://www.htmlacademy.ru">HTML Academy</a></li>
+                                    <li><a href="https://learn.javascript.ru/">Learn.javascript</a></li>
+                                    <li>Belhard  Academy (Modern Front-End using JavaScript, HTML5, React)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <hr>
+                <div id="skills" class="skills-section">
+                    <section class="row">
+                        <article>Skills</article>
+                        <ul>
+                            <li class="skills-html"><span>HTML</span></li>
+                            <li class="skills-css"><span>CSS</span></li>
+                            <li class="skills-js"><span>JavaScript</span></li>
+                            <li class="skills-react"><span>React</span></li>
+                            <li class="skills-git"><span>GitHub</span></li>
+                            <li class="skills-python"><span>Python</span></li>
+                        </ul>
 
-            </div>
-            <hr>
-            <div id="code" class="code-section">
-                <section class="row">
-                    <article>Code Examples</article>
-                    <code>
+                    </section>
+
+                </div>
+                <hr>
+                <div id="code" class="code-section">
+                    <section class="row">
+                        <article>Code Examples</article>
                         <pre>
-                            let user =  {  
-                                name:  "Liza", 
-                                age:  30,  
-                                sayHi()  {  
-                                    alert(this.name);
-                                }  
-                            }; 
-                            
-                            user.sayHi();  // Liza
+                            <code class="js">
+                                let user =  {  
+                                    name:  "Liza", 
+                                    age:  30,  
+                                    sayHi()  {  
+                                        alert(this.name);
+                                    }  
+                                }; 
+                                
+                                user.sayHi();  // Liza
+                            </code>
                         </pre>
-                    </code>
-                </section>
+                    </section>
+                </div>
+                <hr>
+                <div id="lang" class="lang-section">
+                    <section class="row"> 
+                        <article>Languages</article>
+                        <p>Russian - native speaker</p>
+                        <p>English - A2 (B1 in proccess)</p>
+                    </section>
+                </div>
+                <hr>
+                <footer class="footer">
+                    <div>
+                        <h3>Created in 2021</h3>
+                    </div>
+                    <div>
+                        <a href="https://github.com/ElizavetaShopik" target="_blank">
+                            <img src="images/github-icon.svg" alt="github-icon">  
+                        </a>  
+                    </div>
+                    <div>
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="images/rs_school_js.svg" alt="rs_school_js_icon">
+                        </a>
+                    </div>
+                </footer>
             </div>
-            <hr>
-            <div id="lang" class="lang-section">
-                <section class="row"> 
-                    <article>Languages</article>
-                    <p>Russian - native speaker</p>
-                    <p>English - A2 (B1 in proccess)</p>
-                </section>
-            </div>
-            <hr>
-            
         </main>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                document.querySelectorAll('pre code').forEach((el) => {
+                    hljs.highlightElement(el);
+                });
+            });
+        </script>
     </body>
 </html>
