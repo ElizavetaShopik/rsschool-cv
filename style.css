@@ -76,33 +76,30 @@ figure {
 }
 
 .about-section {
-    padding: 10px;
+    padding: 20px 0 30px 10px;
 }
 
-article{
+.title {
     font: normal bold 1.5rem Arial, sans-serif;
     text-transform:uppercase;
-    padding-bottom: 20px;
 }
 
 .left-row {
-    
     float: left;
     width: 450px;
-    padding: 20px 100px 20px 60px;
+    padding: 0 100px 20px 60px;
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
     line-height: 30px;
 }
 
 .row-contacts {
-    
-    padding: 20px;
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
     line-height: 32px;
 }
 .list-contacts {
+    padding-top: 1px;
     margin: -20px;
 }
 .list-contacts li {
@@ -116,13 +113,14 @@ hr {
 }
 
 .education-section {
-    padding: 10px;
+    padding: 20px 0 30px 10px;
+    
     text-align: left;
     font: normal normal 1.2rem Arial, sans-serif;
 }
 
 .row {
-    padding: 20px 0 20px 60px;
+    padding: 0 0 20px 60px;
 }
 
 .education-section ul li{
@@ -212,3 +210,12 @@ hr {
     height: 100px;
     padding: 20px;
 }
+
+.cover a:link {
+    color: var(--color-white);
+}
+
+.cover a:visited {
+    color: var(--color-white);
+}
+
