@@ -1,0 +1,214 @@
+:root{
+    --color-primary:  #4A89DC;
+    --color-dark: #434A54;
+    --color-light: #E6E9ED;
+    --color-gray: #bfbfbf;
+    --color-white: #fff;
+}
+
+body{
+    background-color : var(--color-light); 
+}
+
+.cov {
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    color: var(--color-dark);
+    text-align: left;
+    text-shadow: var(--color-gray) 2px 5px 4px;
+    font: normal bold 1rem Arial, sans-serif;
+    background-color : var(--color-light); 
+}
+
+.page-content {
+    width: 1000px;
+    margin: auto;
+    box-shadow:  20px 20px 10px rgba(0,0,0,.175);
+    background-color: var(--color-white);
+    color: var(--color-dark);
+
+}
+
+figure {
+    width: 200px;
+    padding: 20px 20px;
+    float: left;
+    
+}
+
+.cover img{
+    width: 250px;
+    box-shadow:  10px 10px 10px rgba(0,0,0,.175);
+    border: 10px outset var(--color-light);
+}
+
+.cover {
+    padding: 10px;
+    height: 350px;
+    background-color: var(--color-primary)!important;
+    
+}
+
+.navigation {
+    display: block;
+    color: var(--color-light);
+    font: normal bold 1rem Arial, sans-serif;
+    margin-left: 400px;
+    padding: 20px 40px;
+    position: relative;
+    
+    
+
+}
+
+.navigation p {
+    font-weight: normal; 
+    font-size: 18px; 
+    text-decoration: underline;
+    color: var(--color-gray);
+}
+
+.navigation li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+
+.about-section {
+    padding: 10px;
+}
+
+article{
+    font: normal bold 1.5rem Arial, sans-serif;
+    text-transform:uppercase;
+    padding-bottom: 20px;
+}
+
+.left-row {
+    
+    float: left;
+    width: 450px;
+    padding: 20px 100px 20px 60px;
+    text-align: left;
+    font: normal normal 1.2rem Arial, sans-serif;
+    line-height: 30px;
+}
+
+.row-contacts {
+    
+    padding: 20px;
+    text-align: left;
+    font: normal normal 1.2rem Arial, sans-serif;
+    line-height: 32px;
+}
+.list-contacts {
+    margin: -20px;
+}
+.list-contacts li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 990px;
+    margin: -1px auto;
+}
+
+.education-section {
+    padding: 10px;
+    text-align: left;
+    font: normal normal 1.2rem Arial, sans-serif;
+}
+
+.row {
+    padding: 20px 0 20px 60px;
+}
+
+.education-section ul li{
+    margin: 10px -1rem;
+}
+
+.skills-section {
+    padding: 10px;
+    text-align: left;
+    font: normal normal 1.2rem Arial, sans-serif;
+}
+
+
+.skills-section ul {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.skills-section li{
+    flex-basis: 50%;
+    list-style: none;
+    margin: 10px -1rem;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: left center;
+    height: 80px;
+}
+
+.skills-section span {
+    font: normal bold 1.4rem Arial, sans-serif;;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.skills-html {
+    background-image: url("images/html5-without-wordmark-color.svg");
+}
+
+.skills-css {
+    background-image: url("images/css.svg");
+}
+
+.skills-js {
+    background-image: url("images/javascript-1.svg");
+}
+
+.skills-react {
+    background-image: url("images/react.svg");
+}
+
+.skills-git {
+    background-image: url("images/github-icon.svg");
+}
+
+.skills-python {
+    background-image: url("images/Python-logo-notext.svg");
+}
+
+.code-section {
+    padding: 10px;
+    text-align: left;
+    font: normal normal 1.2rem Arial, sans-serif;
+}
+
+
+.lang-section {
+    padding: 10px;
+    text-align: left;
+    font: normal normal 1.2rem Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    background-color: var(--color-white);
+    justify-content: space-around;
+}
+
+.footer div {
+    height: 150px;
+}
+.footer div img {
+    display: block;
+    margin:  auto;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}
